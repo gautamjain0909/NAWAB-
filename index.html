@@ -4,20 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Virtual Art Gallery</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-  <header style="display: flex;
-  justify-content: space-between;">
-    <div>
-      <img src="" alt="nawab">
-      <p style="display:inline ;">Gallery</p>
-    </div>
-    <div><input type="text" placeholder="search" class="search-bar"></div>
-    <div>
-      <button>w</button>
-      <button>bag</button>
-      <button>login</button>
-    </div>
-  </header>
+    <header class="header">
+        <div class="left-section">
+            <img class="logo" src="n1.jpeg" alt="">
+            <p class="gallery">Gallery</p>
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button"><img class="search-icon" src="icon/search.svg" alt="">
+                <div class="tooltip">Search</div>
+            </button>
+            
+        </div>
+        <div class="right-section"> 
+            <div class="wishlist-icon-container">
+                <img class="wishlist-icon" src="icon/wishlist.svg" alt="">
+                <div class="tooltip">wishlist</div></button>
+            </div>
+            <div class="cart-container">
+                <img class="cart-icon" src="icon/cart.svg" alt="">
+                <div class="tooltip">cart</div></button>
+            </div>
+            
+            <img class="current-user-picture" src="icon/w1.jpeg" alt="">
+        </div>
+    </header>
 </body>
 </html>
