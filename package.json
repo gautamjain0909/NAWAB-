@@ -1,11 +1,19 @@
 {
-  "name": "nawab-",
+  "name": "Home-Page",
   "version": "1.0.0",
-  "description": "Virtual Art Gallery",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index3.html --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index3.html --no-content-hash --no-minify --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
   },
-  "author": "Gautam Jain",
-  "license": "ISC"
+  "author": "NAWAB$",
+  "license": "ISC",
+  "dependencies": {
+    "imagesloaded": "^4.1.4",
+    "locomotive-scroll": "^3.6.1",
+    "parcel-bundler": "^1.12.4"
+  }
 }
