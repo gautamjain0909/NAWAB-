@@ -632,8 +632,3 @@ html.has-scroll-dragging {
   font-variation-settings: "FILL" 1, "wght" 100, "GRAD" 200, "opsz" 40;
   cursor: pointer;
 }
-
-.nav--hidden {
-  transform: translateY(calc(-1 * var(--nav-height)));
-  box-shadow: none;
-}
