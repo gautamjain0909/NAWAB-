@@ -1,13 +1,6 @@
-# Image Tiles Scroll Animation
+# Virtual Art Gallery
 
-Scroll animations for image grids using [Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/).
-
-![Tile Scroll](https://tympanus.net/codrops/wp-content/uploads/2020/10/ScrollAnimationLocomotive.jpg)
-
-[Article on Codrops](https://tympanus.net/codrops/?p=51396)
-
-[Demo](http://tympanus.net/Development/TileScroll/)
-
+Team NAWAB$
 
 ## Installation
 
@@ -28,22 +21,3 @@ Create the build:
 ```
 npm run build
 ```
-
-## Credits
-
-- [Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/)
-- Images from [Unsplash](http://unsplash.com/)
-
-## Misc
-
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [GitHub](https://github.com/codrops), [Instagram](https://www.instagram.com/codropsss/)
-
-## License
-[MIT](LICENSE)
-
-Made with :blue_heart: by [Codrops](http://www.codrops.com)
-
-
-
-
-
