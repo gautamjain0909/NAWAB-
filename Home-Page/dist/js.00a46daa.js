@@ -2942,16 +2942,6 @@ Promise.all([(0, _utils.preloadImages)(".tiles__line-img"), (0, _utils.preloadFo
     return scroll.scrollTo(headerEl);
   });
 });
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function () {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-};
 },{"./utils":"js/utils.js","locomotive-scroll":"../node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -2977,7 +2967,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54670" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57421" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
